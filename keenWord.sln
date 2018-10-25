@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keenWord", "keenWord\keenWord.csproj", "{6A7264A1-01D1-4B7D-BE3F-73538245A27D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keenWord.Web", "keenWord.Web\keenWord.Web.csproj", "{7D375CB1-3A06-4E6E-AE34-0A9E66920892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keenWord.Web.Tests", "keenWord.Web.Tests\keenWord.Web.Tests.csproj", "{01ED5613-EE62-41FF-B774-94FFF551C267}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6A7264A1-01D1-4B7D-BE3F-73538245A27D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A7264A1-01D1-4B7D-BE3F-73538245A27D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A7264A1-01D1-4B7D-BE3F-73538245A27D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D375CB1-3A06-4E6E-AE34-0A9E66920892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D375CB1-3A06-4E6E-AE34-0A9E66920892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D375CB1-3A06-4E6E-AE34-0A9E66920892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D375CB1-3A06-4E6E-AE34-0A9E66920892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01ED5613-EE62-41FF-B774-94FFF551C267}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01ED5613-EE62-41FF-B774-94FFF551C267}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01ED5613-EE62-41FF-B774-94FFF551C267}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01ED5613-EE62-41FF-B774-94FFF551C267}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
